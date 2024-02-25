@@ -1,3 +1,3 @@
 <h2>PHP Crud App</h2>
-## this is a php crud app repository <br>
+## this repository contains PHP Crud app <br>
 ## created by php
