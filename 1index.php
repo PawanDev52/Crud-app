@@ -1,4 +1,4 @@
-<!-- PHP Crud App -->
+<!-- PHP - Crud App -->
 <?php
 $insert = false;
 $update = false;
