@@ -118,6 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       </div>
     </div>
   </nav>
+
   <?php
   if ($insert) {
     echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
@@ -142,6 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   </div>";
   }
   ?>
+  
   <div class="container my-4">
     <h2>Add a Note</h2>
     <form action="/crud_app/1index.php" method="post">
@@ -224,5 +226,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     })
   </script>
 </body>
-
 </html>
