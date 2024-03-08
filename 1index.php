@@ -3,6 +3,7 @@
 $insert = false;
 $update = false;
 $delete = false;
+
 // connection to the database
 $servername = "localhost";
 $username = "root";
@@ -55,7 +56,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +64,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
   <title>iNotes - Notes taking made easy</title>
 </head>
-
 <body>
   <!-- Edit Modal -->
   <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
