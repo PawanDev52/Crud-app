@@ -208,7 +208,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $('#editModal').modal('toggle');
       })
     })
-
     deletes = document.getElementsByClassName('delete');
     Array.from(deletes).forEach((element) => {
       element.addEventListener("click", (e) => {
@@ -225,6 +224,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       })
     })
   </script>
-  
 </body>
 </html>
